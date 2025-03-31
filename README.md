@@ -1,7 +1,11 @@
+(note: if you would like to see the code, please contact me as the second part of the project is still in progress)
+
 # searchengine
 Group project for NTU MSc in Information Systems, Information Retrieval and Analysis module
 
 The overall assignment, split into 3, was to write a software system.
+
+##**Part 1**
 We were first tasked to create the indexing component of an information retrieval system using one of the external sorting algorithms that were discussed in class: BSBI or SPIMI.
 As an input to the system, the system was required to take 
 (I) path to the directory containing the text files to index; 
