@@ -16,18 +16,6 @@ Other constraints/requirements:
 2) Tokens could only be split on whitespace characters (space, newline, tab).
 3) To not create empty tokens (there could be several whitespace characters in a row) 
 
-Directory Listing
-Input: string (path to directory)
-Output: list of strings (full paths to files in the directory)
-This component will list all the files (with full paths) in the directory. This will simplify going through the files at the indexing stage.
-File Reading
-Input: string (full path to file)
-Output: string/text (full contents of a file)
-Some programming languages have this function in the standard library, some do not. It will be very useful to have this functionality easily accessible in this project, so either find it in the standard library of your programming language or write a small function that does that.
-Tokenisation
-Output: pairs <token, document>
-Note that you cannot output a full list of tokens at one because it may be larger than the block size. One approach may be to output pairs one by one with each call to the tokeniser component.
-
 Overall initial structure:
 
 **Directory Listing**
